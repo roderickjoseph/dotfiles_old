@@ -1,0 +1,8 @@
+/Users/roderickgauvin/.vim/ycm_build/CMakeFiles/rebuild_cache.dir
+/Users/roderickgauvin/.vim/ycm_build/CMakeFiles/edit_cache.dir
+/Users/roderickgauvin/.vim/ycm_build/BoostParts/CMakeFiles/rebuild_cache.dir
+/Users/roderickgauvin/.vim/ycm_build/BoostParts/CMakeFiles/edit_cache.dir
+/Users/roderickgauvin/.vim/ycm_build/BoostParts/CMakeFiles/BoostParts.dir
+/Users/roderickgauvin/.vim/ycm_build/ycm/CMakeFiles/rebuild_cache.dir
+/Users/roderickgauvin/.vim/ycm_build/ycm/CMakeFiles/edit_cache.dir
+/Users/roderickgauvin/.vim/ycm_build/ycm/CMakeFiles/ycm_core.dir

@@ -1,0 +1,77 @@
+# Shortcuts
+
+alias reload="source ~/.bash_profile"
+alias _="sudo"
+alias g="git"
+alias rr="rm -rf"
+
+# Default options
+
+alias rsync="rsync -vh"
+
+# List declared aliases, functions, paths
+
+alias aliases="alias | sed 's/=.*//'"
+alias paths='echo -e ${PATH//:/\\n}'
+
+alias l="ls -lahA"
+alias lpm="stat -c '%a %n' *"
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias -- -="cd -"                  # Go to previous dir with -
+alias cd.='cd $(readlink -f .)'    # Go to real dir (i.e. if current dir is linked)
+alias cdh="cd ~"
+alias cda="cd ~/workspace/806Apps"
+alias cdv="cd ~/workspace/806Apps/806Vagrant"
+alias cde="cd ~/workspace/806Apps/806Env"
+alias cdts="cd ~/workspace/806Apps/Title1Crate/src/main/resources/ts"
+
+# npm
+
+alias ni="npm install"
+alias nu="npm uninstall"
+alias nup="npm update"
+alias nri="rm -r node_modules && npm install"
+alias ncd="npm-check -su"
+
+# Network
+
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias ipl="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'"
+
+# Miscellaneous
+
+alias hosts="sudo $EDITOR /etc/hosts"
+alias quit="exit"
+
+# Git
+
+__git_complete g __git_main
+__git_complete gco _git_checkout
+__git_complete gm _git_merge
+__git_complete gms _git_merge
+__git_complete gpl _git_pull
+__git_complete gpu _git_push
+__git_complete gb __git_main
+
+alias g="git"
+alias ga="git add"
+alias gaa="git add --all"
+alias gd="git diff"
+alias gs="git status"
+alias gco="git checkout"
+alias gcm="git commit -m"
+alias gb="git branch"
+alias gpl="git pull"
+alias gpu="git push"
+alias gm="git merge"
+alias gms="git merge --squash"
+alias gl="git log"
+
+alias vu="vagrant up"
+alias vh="vagrant halt"
+alias vs="vagrant status"
+alias vssh="vagrant ssh"
+
