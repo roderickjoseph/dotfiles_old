@@ -2,7 +2,6 @@
 
 alias reload="source ~/.bash_profile"
 alias _="sudo"
-alias g="git"
 alias rr="rm -rf"
 
 # Default options
@@ -35,6 +34,7 @@ alias nu="npm uninstall"
 alias nup="npm update"
 alias nri="rm -r node_modules && npm install"
 alias ncd="npm-check -su"
+alias nbw="npm run buildwatch"
 
 # Network
 
@@ -75,3 +75,6 @@ alias vh="vagrant halt"
 alias vs="vagrant status"
 alias vssh="vagrant ssh"
 
+alias dtm="dev-tmux.sh"
+
+alias vim="vimx"
